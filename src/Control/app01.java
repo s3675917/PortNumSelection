@@ -83,7 +83,6 @@ public class app01 {
 		try {
 			String content = port;
 			File file = new File(filepath);
-			// �ļ�������ʱ�����������ļ���
 			if (!file.exists()) {
 				file.createNewFile();
 			}
@@ -101,7 +100,6 @@ public class app01 {
 	}
 
 	public static String readFile(File file, String charset) {
-		// ����Ĭ�ϱ���
 		if (charset == null) {
 			charset = "UTF-8";
 		}
